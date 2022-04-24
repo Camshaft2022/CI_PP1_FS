@@ -6,12 +6,15 @@
 }
 
 #header {
-    font-family: 'Roboto Slab','arial','Bebas Neue';
-    font-weight: 400;
-    font-size: 50px;
     text-decoration: none;
+    text-transform: none;
     background-color: #5D7791;
-    color:black
+}
+h1 h2 h3 h4 h5 h6 {
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+    font-size: large;
 }
 #navigation_bar {
     background-color: #5D7791;
@@ -19,8 +22,16 @@
     margin: 0;
     text-decoration: none;
     font-family:'Bebas Neue'; 
-    font-size: 50px;
-    color:black
-
+    font-size: 30px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 100%;
+}
+li {
+    display:inline-block;
+    margin: 3px auto;
 }
   
