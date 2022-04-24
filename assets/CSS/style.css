@@ -4,25 +4,38 @@
     margin:0;
     padding:0;
 }
+.background_color {
+    background-color: grey
 
-#header {
+}
+header {
+    background-color: #5D7791;
+    color: black;
+    font-size: 30px;
+}
+
+header a {
     text-decoration: none;
     text-transform: none;
-    background-color: #5D7791;
 }
+
 h1 h2 h3 h4 h5 h6 {
     color: black;
     text-transform: none;
     text-decoration: none;
-    font-size: large;
 }
 #navigation_bar {
     background-color: #5D7791;
     padding: 0;
-    margin: 0;
+    margin: 5px;
     text-decoration: none;
-    font-family:'Bebas Neue'; 
-    font-size: 30px;
+    font-family:'Bebas Neue';
+    font-size: 30px; 
+    
+}
+#navigation_bar a:hover {
+    color:white
+
 }
 header {
     display: flex;
@@ -33,5 +46,10 @@ header {
 li {
     display:inline-block;
     margin: 3px auto;
+    letter-spacing: 3px;
 }
-  
+li a {
+    text-decoration: none;
+}
+
+    
