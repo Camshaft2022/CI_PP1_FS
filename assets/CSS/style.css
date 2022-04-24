@@ -10,3 +10,26 @@
     font-weight: 400;
     font-size: 50px;
 }
+#navigation_bar {
+    background-color: #7EA1C4;
+    padding: 8px;
+    float:right;
+    text-decoration: none;
+    font-family:'Bebas Neue'; 
+    align-items: center;
+    font-size: 30px;
+}
+
+@media (min-width: 992px)
+#navigation_bar_mdl {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+@media (min-width: 768px)
+#navigation_bar_mdm {
+    flex-wrap: nowrap;><
+    justify-content: flex-start;
+}
+
+.active
