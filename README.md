@@ -1,108 +1,231 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Project Goals 
 
-Welcome Camshaft2022,
+### User Goals
+- Finding a comfortable and motivating enviroment to work on themselves
+- find information on memberships and where to sign up
+- find information on where the gym is located
+- find information on what facilites the gym provides
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Site Owner Goals
+- Increase in the number of clients
+- Showcase enviroment and whats offered
+- Provide clients with contact information
+- Provide clients with knowledge of what for offer when they join the gym
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## User Experience
 
-## Gitpod Reminders
+### Target Audience
+- people looking to make a change
+- people that are looking for a new gym
+- people that are professional athletes
+- people wanting to be work out with a group via classes
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Requrements and Expectations
 
-`python3 -m http.server`
+- an easy to use navigation bar
+- easy to find knowledge
+- Links and functions that work as expected
+- confortable design with a less is more aproach
+- easy to find contact information 
+- Accessibility for all
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+#### First-time User 
+1. As a first time user, I want to know where the gym is located
+2. As a first time user, i want to know whats for offer if i was to choose this gym
+3. As a first time user, I want to know more about the enivorment
+4. As a first time user, I want to know who about the staff
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Returning User
+5. As a returning user, I want to see facilite options
+6. As a returnign user, I want to know the opening times
+7. As a returning user, I want to find a phone number to call
+9. As a returning user, I want to leave some comment, suggestion or message to the staff
+10. As a returning user, I want to find the gym on social media
+11. As a returning user, I want to know who is available at the gym
+12. As a returning user, I want to get how to get to the location of the gym
 
-A blue button should appear to click: _Make Public_,
+#### Site Owner 
+13. As the site owner, I want users to find news about up and coming class and have the ability to sign up
+14. As the site owner, I want users to get to know the gyms enviroment
+15. As the site owner, I want the users to be able to contact us
 
-Another blue button should appear to click: _Open Browser_.
+## Design
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Design Choices
+The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
+Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
 
-To log into the Heroku toolbelt CLI:
+### Colour
+For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. To narrow down the colours I used Adobe Color. After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right.
+<br>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Colour scheme](docs/features/color-palette.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+### Fonts
+Pinyon script with cursive as fallback was used for the logo to match the sign outside the restaurant. 
+<br>
+Montserrat was used for the body and Roboto for headings. Both fonts are considered dyslexia friendly.
 
-## Release History
+### Structure
+The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
+The website consists of five separate pages: 
+- A homepage with a sections for News and Sunday Meal Offers
+- An about page with the About Us and Meet the Chef
+- A menu page
+- A image gallery with images and video showcasing the general feel of the restaurant
+- A contact page with a contact form, a map and information about the bussines section
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Wireframes
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<details><summary>Home</summary>
+<img src="docs/wireframes/wireframes-homepage.png">
+</details>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Technologies Used
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Languages
+- HTML
+- CSS
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Frameworks & Tools
+- Git
+- GitHub
+- Gitpod
+- Google Fonts
+- Adobe Color
+- Font Awsome
+- Favicon<span>.</span>io
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Features
+The page consists of five pages and fourteen features
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Logo and Navigation Bar
+- Featured on all five pages
+- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
+links to the Homepage, About page, Menu page, Gallery and Contact us page
+- It allows users to easily navigate the page
+- The link for the page the user is currently on is highlighted 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Validation
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+<details><summary>Home</summary>
+<img src="docs/validation/validation-html-index.jpg">
+</details>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<details><summary>whole page</summary>
+<img src="docs/validation/validation-css-whole-page.jpg">
+</details>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+### Accessibility
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse-performance-index.jpg">
+</details>
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Performing tests on various devices 
+The website was tested on the following devices:
+- Lenovo Yoga 2 Pro (both in pc and tablet mode)
+- Honor 20 pro
+- Xiaomi Redmi Note 7
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Browser compatability
+The website was tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Egde
 
-**So….?**
+### Testing user stories
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+1. As a first time user, I want to know where the restaurant is lokated
 
-**Can I opt out?**
+2. As a first time user, I want to know the price range
+3. 
+4. As a first time user, I want to know more about the restaurant
+5. 
+6. As a first time user, I want to get a feel of what to expect at the restaurant
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+5. As a returning user, I want to see the Sunday meal offer
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+6. As a returnign user, I want to know the opening times
+7. 
+8. As a returning user, I want to find a phone number to call for reservation
 
-**Anything more?**
+8. As a returning user, I want to see the menu
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+9. As a returning user, I want to leave some comment, suggestion or message to the staff
 
----
+10. As a returning user, I want to find the restaurant on social media
 
-Happy coding!
+11. As a returning user, I want to know who is preparing the food
+
+12. As a returning user, I want to get directions to the restauran
+
+13. As the site owner, I want users to find news about upcoming events or changes in opening times
+14. 
+15. As the site owner, I want users to get to know the restaurant 
+
+15. As the site owner, I want the users to be able to contact us
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Home page link stays highlighted when visiting another page | Change active atribute to the correct page |
+| The user can submit a contact form input without a message | Add required attribute to message input field |
+| Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
+| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
+| When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7.Press Enter to create your local clone.
+
+## Credits
+Images not referenced below are owned by the developer.
+
+### Media
+In order of apearance:
+
+### Code
+In order of apearance:
+
+
+## Acknowledgements
+I would like to take the opportunity to thank:
+- My mentor Mo Shami for his feedback, advice, guidance and support.
