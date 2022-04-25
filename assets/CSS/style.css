@@ -68,7 +68,14 @@ div h1 {
     justify-content: center;
     text-align: center;
 }
-.split-section
+.split-section {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    font-size: 30px;
+    margin: 10px;
+
+}
 
 @media only screen and (max-width: 600px) {
     .navigation_bar {
@@ -88,10 +95,20 @@ div h1 {
     }
 
 }
-@media only screen and (max-width: 800px)
-.split-section {
-    margin-left: 0;
-    max-width: 100%!important;
-    padding-top: 30px!important;
-    align-items: flex-start;
+.gym-card {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+    margin-top: 10px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.gym-container {
+        margin-left: 27%;
+        margin-top: 10px;
 }
