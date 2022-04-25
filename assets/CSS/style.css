@@ -80,6 +80,7 @@ div h1 {
     align-content: center;
     font-size: 30px;
     margin: 10px;
+    border-bottom: #13678A 1px solid;
 
 }
 
@@ -101,36 +102,42 @@ div h1 {
     }
 
 }
-
-.gym-card {
-    width: 50%;
-    justify-content: center;
-    align-items: space-between;
-    float: left;
-    position: relative;
-    margin:0;
+.cards {
+    margin: 0;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
+    gap: 20px  ;
+    font-family:'Bebas Neue';
 }
-
-.column1 {
-    width: 20%;
-    border: 1px solid black;
-    padding:2px;
-}
-
-img {
-    border-radius: 5px 5px 0 0;
-}
-
-.swim-card {
-    width: 50%;
-    justify-content: center;
-    align-items:center;
-    margin:0;
-}
-
-.column2 {
-    width: 20%;
-    border: 1px solid black;
+.card  {
+    border: 1px solid   black;
+    align-items: center;
 }
 
 
+.card-image {
+    width:100%;
+    display: block;
+}
+
+.card-content {
+    line-height: 1.5 ;
+    font-size: 90%;
+    padding: 15px;
+    background-color: white;
+}
+
+.card-content > p :first-of-type {
+    margin-top: 0;
+}
+
+.card-content > p :first-of-type {
+    margin-bottom: 0;
+}
+
+.card-info {
+    padding:15px;
+    display:flex;
+    justify-content: space-evenly;
+}
