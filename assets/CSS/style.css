@@ -6,7 +6,7 @@
 }
 
 .background_color {
-    background-color: grey;
+    background-color: #909184
 
 }
 
@@ -40,9 +40,11 @@ li {
 li a {
     text-decoration: none;
 }
+
 li a:hover {
     background-color: #13678A;
 }
+
 .intro {
     margin: 10;
     text-align: center;
@@ -50,10 +52,12 @@ li a:hover {
     justify-content: center;
     align-items: center;
 }
+
 div h1 {
     font-size: 50px;
     border-bottom: #13678A solid 3px;
 }
+
 .home-section h2 {
     font-size: 15px;
     padding: 30px 50px 3px 50px;
@@ -63,11 +67,13 @@ div h1 {
     margin:5px;
     padding:30px;
 }
+
 .home-section {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .split-section {
     display: flex;
     justify-content:center;
@@ -95,20 +101,36 @@ div h1 {
     }
 
 }
+
 .gym-card {
-    width: 100%;
-    display: block;
+    width: 50%;
     justify-content: center;
-    align-items: center;
-    margin-left: 27%;
-    margin-top: 10px;
+    align-items: space-between;
+    float: left;
+    position: relative;
+    margin:0;
+}
+
+.column1 {
+    width: 20%;
+    border: 1px solid black;
+    padding:2px;
 }
 
 img {
     border-radius: 5px 5px 0 0;
 }
 
-.gym-container {
-        margin-left: 27%;
-        margin-top: 10px;
+.swim-card {
+    width: 50%;
+    justify-content: center;
+    align-items:center;
+    margin:0;
 }
+
+.column2 {
+    width: 20%;
+    border: 1px solid black;
+}
+
+
