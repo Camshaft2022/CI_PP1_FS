@@ -107,7 +107,7 @@ div h1 {
     max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(5, minmax(300px, 1fr));
-    gap: 20px  ;
+    gap: 30px  ;
     font-family:'Bebas Neue';
 }
 
@@ -172,3 +172,40 @@ div h1 {
     justify-content:center;
     align-content: center;
 }
+.time-settings {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style: none;
+}
+.timeline {
+    padding:0px 100px;
+    position: relative;
+    width: 100%;
+}
+.timeline ul li {
+    position: relative;
+    width: 50%;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    height 100%;
+    width: 4px;
+    background-color: #fff;
+    left: 50%;
+    top:0;
+} 
+.timeline ul li:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.timeline ul li:nth-child(even) {
+    float: right;
+    text-align: right;
+    clear: both;
+
