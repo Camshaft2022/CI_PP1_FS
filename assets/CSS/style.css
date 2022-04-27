@@ -248,41 +248,50 @@ ul,ol {
 }
 .content {
     padding:50px 0px;
+    background: white;
+    z-index: 1;
 }
 .timeline ul li:nth-child(1)::before {
     background-image: url(../CSS/images/kettlebell-fitness.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: 2;
 }
 .timeline ul li:nth-child(2)::before {
     background-image: url(../CSS/images/boxfit.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: 2;
 }
 .timeline ul li:nth-child(3)::before {
     background-image: url(../CSS/images/zumba.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: 2;
 }
 .timeline ul li:nth-child(4)::before {
     background-image: url(../CSS/images/bullet-ab-class.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: 2;
 }
 .timeline ul li:nth-child(5)::before {
     background-image: url(../CSS/images/boxing-class.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: 2;
 }
+
 .content h2 {
     font-size: 45px;
     font-weight: 400;
     margin: 10px;
+    
 }
 .content p {
     font-size: 24px;
@@ -290,6 +299,7 @@ ul,ol {
 }
 .content h2 p {
     text-align: center;
+    left: -80px;
 }
 .timetable {
     padding: 0px 10%;
