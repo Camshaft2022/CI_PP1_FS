@@ -172,7 +172,7 @@ div h1 {
     justify-content:center;
     align-content: center;
 }
-.time-settings {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -184,7 +184,9 @@ ul,ol {
 .timeline {
     padding:0px 100px;
     position: relative;
-    width: 100%;
+    width: 99.5%;
+    background-color: #13678A;
+    margin: 5px 5px 0 5px
 }
 .timeline ul li {
     position: relative;
@@ -193,9 +195,9 @@ ul,ol {
 .timeline::before {
     content: '';
     position: absolute;
-    height 100%;
+    height: 100%;
     width: 4px;
-    background-color: #fff;
+    background-color: black;
     left: 50%;
     top:0;
 } 
@@ -206,6 +208,83 @@ ul,ol {
 }
 .timeline ul li:nth-child(even) {
     float: right;
-    text-align: right;
+    text-align: left;
     clear: both;
-
+}
+.timeline ul li:nth-child(odd) .content {
+    margin-right: 100px;
+}
+.timeline ul li:nth-child(even) .content {
+    margin-left: 100px;
+}
+.timeline ul::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.timeline ul li:nth-child(odd)::before {
+    content: '';
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: black;
+    border-radius: 50%;
+    right: -79px;
+    top:50%;
+    transform: translate(0%,-50%);
+    border:4px solid white;
+}
+.timeline ul li:nth-child(even)::before {
+    content: '';
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: black;
+    border-radius: 50%;
+    left: -79px;
+    top:50%;
+    transform: translate(0%,-55%);
+    border:4px solid white;
+}
+.content {
+    padding:50px 0px;
+}
+.timeline ul li:nth-child(1)::before {
+    background-image: url(../CSS/images/kettlebell-fitness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.timeline ul li:nth-child(2)::before {
+    background-image: url(../CSS/images/boxfit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.timeline ul li:nth-child(3)::before {
+    background-image: url(../CSS/images/zumba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.timeline ul li:nth-child(4)::before {
+    background-image: url(../CSS/images/bullet-ab-class.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.timeline ul li:nth-child(5)::before {
+    background-image: url(../CSS/images/boxing-class.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 10px;
+}
+.content p {
+    font-size: 24px;
+    margin: 30px;
+}
