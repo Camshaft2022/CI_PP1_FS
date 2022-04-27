@@ -5,20 +5,21 @@
 - find information on memberships and where to sign up
 - find information on where the gym is located
 - find information on what facilites the gym provides
+- find what classes are available
 
 ### Site Owner Goals
-- Increase in the number of clients
+- Increase number of clients
 - Showcase enviroment and whats offered
 - Provide clients with contact information
-- Provide clients with knowledge of what for offer when they join the gym
+- Provide clients with knowledge of whats for offer when they join the gym
 
 ## User Experience
 
 ### Target Audience
 - people looking to make a change
 - people that are looking for a new gym
-- people that are professional athletes
-- people wanting to be work out with a group via classes
+- people that are professional athletes/or novices
+- people looking to work out with a group
 
 ### User Requrements and Expectations
 
@@ -33,12 +34,12 @@
 
 #### First-time User 
 1. As a first time user, I want to know where the gym is located
-2. As a first time user, i want to know whats for offer if i was to choose this gym
+2. As a first time user, i want to know whats to offer if i was to choose this gym
 3. As a first time user, I want to know more about the enivorment
-4. As a first time user, I want to know who about the staff
+4. As a first time user, I want to know about the staff
 
 #### Returning User
-5. As a returning user, I want to see facilite options
+5. As a returning user, I want to see facilities options
 6. As a returnign user, I want to know the opening times
 7. As a returning user, I want to find a phone number to call
 9. As a returning user, I want to leave some comment, suggestion or message to the staff
@@ -54,29 +55,27 @@
 ## Design
 
 ### Design Choices
-The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
-Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
+The webpage was designed with a less is more approach so that there not bombarded with alot of information so its a single page scroll so that the information can be easily found via the navigation bar. 
 
 ### Colour
-For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. To narrow down the colours I used Adobe Color. After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right.
+For the colour scheme i have choosen a dark teal blue as its a bold color but has a softness thats appealling to a any a customers eye and i have choosen to use both white and black as contrasting colors so that it matchs the color through-out the gyms enviroment and is also easily visible to all
 <br>
-
-![Colour scheme](docs/features/color-palette.png)
-
 
 ### Fonts
-Pinyon script with cursive as fallback was used for the logo to match the sign outside the restaurant. 
-<br>
-Montserrat was used for the body and Roboto for headings. Both fonts are considered dyslexia friendly.
+Bebas Neue 
+
+sans-serif arial
 
 ### Structure
-The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
-The website consists of five separate pages: 
-- A homepage with a sections for News and Sunday Meal Offers
-- An about page with the About Us and Meet the Chef
-- A menu page
-- A image gallery with images and video showcasing the general feel of the restaurant
-- A contact page with a contact form, a map and information about the bussines section
+the page is a well organised, clean looking and user friendly single scroll page designed to be less is more so that the customer wont be reading massive groups of text but more visual appealling design that can be navigated by the links on the mavigation bar or though a single scroll
+<br>
+the page consists of 5 seperate sections
+- a landing page
+- a facilites page that is shown on seperated cards
+- a classes page which is a timeline based structure
+- a timetable page which shows the weeks classes
+- a contact page with a need to know information such as contact number as well as opening hours and a usable map 
+
 
 ### Wireframes
 
@@ -98,17 +97,15 @@ The website consists of five separate pages:
 - Google Fonts
 - Adobe Color
 - Font Awsome
-- Favicon<span>.</span>io
 
 ## Features
-The page consists of five pages and fourteen features
+The page consists of five sections and fourteen features
 
 ### Logo and Navigation Bar
 - Featured on all five pages
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
-links to the Homepage, About page, Menu page, Gallery and Contact us page
+- The navbar is fully responsive and is downsized on smaller screens
 - It allows users to easily navigate the page
-- The link for the page the user is currently on is highlighted 
+- The link for the page the user is currently on is highlighted
 
 ![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
 
@@ -156,35 +153,33 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-1. As a first time user, I want to know where the restaurant is lokated
+1. As a first time user, I want to know where the gym is located
 
-2. As a first time user, I want to know the price range
+2. As a first time user, I want to know the price range of memberships
 3. 
-4. As a first time user, I want to know more about the restaurant
+4. As a first time user, I want to know more about the gym
 5. 
-6. As a first time user, I want to get a feel of what to expect at the restaurant
+6. As a first time user, I want to get a feel of what to expect at the gym
 
-5. As a returning user, I want to see the Sunday meal offer
+5. As a returning user, I want to see offers on memberships
 
 6. As a returnign user, I want to know the opening times
 7. 
-8. As a returning user, I want to find a phone number to call for reservation
+8. As a returning user, I want to find a phone number to call for questions or to sign up
 
-8. As a returning user, I want to see the menu
+8. As a returning user, I want to see the facilites
 
 9. As a returning user, I want to leave some comment, suggestion or message to the staff
 
-10. As a returning user, I want to find the restaurant on social media
+10. As a returning user, I want to find the gym on social media
 
-11. As a returning user, I want to know who is preparing the food
+11. As a returning user, I want to know more about the coaches and staff members
 
-12. As a returning user, I want to get directions to the restauran
+12. As a returning user, I want to get directions to the gym
 
 13. As the site owner, I want users to find news about upcoming events or changes in opening times
-14. 
-15. As the site owner, I want users to get to know the restaurant 
 
-15. As the site owner, I want the users to be able to contact us
+15. As the site owner, I want the users to be able to contact us or find us on social media
 
 ## Bugs
 
