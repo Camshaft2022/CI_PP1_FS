@@ -182,7 +182,7 @@ ul,ol {
     list-style: none;
 }
 .timeline {
-    padding:0px 100px;
+    padding:0px 50px;
     position: relative;
     width: 99.5%;
     background-color: #13678A;
@@ -287,4 +287,7 @@ ul,ol {
 .content p {
     font-size: 24px;
     margin: 30px;
+}
+.content h2 p {
+    text-align: center;
 }
