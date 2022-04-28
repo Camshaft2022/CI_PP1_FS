@@ -399,7 +399,12 @@ ul,ol {
     margin: 15px;
 }
 
-@media only screen and (max-width: 600px) {
-
+/*contact-us form */
+.contact-us-form {
+    height:50vh;
+    width:40%;
+    border:3px solid  black ;
+    background-color: #13678A;
+    border-radius: 5px;
 
 }
