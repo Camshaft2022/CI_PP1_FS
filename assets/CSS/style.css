@@ -179,6 +179,51 @@ div h1 {
     justify-content:center;
     align-content: center;
 }
+/*Meet the Team code*/
+.team-cards {
+    display: flex;
+    width: 1170px;
+    margin: 70px auto;
+    background: white
+ 
+}
+@media only screen and (max-width: 600px) {
+    .team-cards {
+        display: flex;
+        flex-direction: column;
+
+}
+
+.coaches {
+    width: 28%;
+    float: left;
+    margin: 15px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0,8);
+    padding:15px;
+    color:black;
+    background-color: darkgray;
+    border-radius: 16px;
+}
+.coaches img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin: 40px 20px 30px 0;
+    border: 5px solid #fff;
+    shape-outside: circle();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h3 {
+    font-family: 'Bebas Neue','Arial' , 'sans-serif';
+}
+p {
+    text-align: justify;
+    line-height: 15px;
+}
+
 
 /*timeline design code*/
 ul,ol {
