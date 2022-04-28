@@ -121,7 +121,7 @@ div h1 {
         max-width: 1000px;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 30px  ;
+        gap: 20px  ;
         font-family:'Bebas Neue';
     }
 }
@@ -351,11 +351,9 @@ ul,ol {
 }
 @media (max-width: 796px ){
     .table thead {
-        overflow:scroll;
         
     }
     .table, .table tr, .table td {
-        display: block;
         width: 100%;
     }
     .table tr {
@@ -377,11 +375,10 @@ ul,ol {
     }
 }
 
-.membership h2 {
-    font-size: 50px;
-    border-bottom: #13678A solid 1px;
-    margin: 10px;
-    display:flex;
-    justify-content:center;
-    align-content: center;
+.contact-information {
+    width:50%;
+    height:900vh;
+    background-color: white ;
+    float: right;
+    top:0;
 }
