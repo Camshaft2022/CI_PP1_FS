@@ -169,6 +169,7 @@ div h1 {
     display:flex;
     justify-content: space-around;
 }
+
 /*style for sections headers*/
 .classes h2 {
     font-size: 50px;
@@ -252,8 +253,8 @@ ul,ol {
 .timeline li {
     font-size: 40px;
     line-height: 60px;
-    margin-left: 10px;
-    padding: 14px;
+    margin-left: 0px;
+    padding: 50px;
     letter-spacing: 3px;
     z-index: 1;
 }
@@ -404,7 +405,35 @@ ul,ol {
     height:50vh;
     width:40%;
     border:3px solid  black ;
-    background-color: #13678A;
-    border-radius: 5px;
 
 }
+
+/*footer design */
+.social-footer {
+    padding: 1rem;
+    background:#13678A;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .social-footer .social-footer-icons li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .social-footer .social-footer-icons .fa {
+    font-size: 1.3rem;
+    color: #fefefe;
+  }
+  
+  .social-footer .social-footer-icons .fa:hover {
+    color:#fefefe;
+    transition: color 0.3s ease-in;
+  }
+  
