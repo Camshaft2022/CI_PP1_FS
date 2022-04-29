@@ -139,38 +139,53 @@ the page consists of 5 seperate sections
 - __Navigation__
 The websites navigation bar is identical across all 2 pages and has easy to see and use buttons
 
+![image](https://user-images.githubusercontent.com/100613509/166063249-ce010d84-35b9-49f8-a3aa-65366cc1ae96.png)
+
+
 - __Landing page__ 
 The website’s landing page is a brief description of the gym and includes the membership prices
+
+![image](https://user-images.githubusercontent.com/100613509/166063307-0d23d09a-c326-4144-9a82-251517eaf0b9.png)
+
 
 - __Facilities section__
 The websites facilities section is a detailed overview of all the access the user could get from a membership at the gym there’s also relevant imagery to break up large text 
 On the facilities section there’s a meet the team section that gives the user a detailed look at coaches that will be available to the clients when they subscribe to a membership.
 
+![image](https://user-images.githubusercontent.com/100613509/166063362-b1a08f0d-9f0d-4d82-bd75-2457e1d8a83a.png)
+
+
 - __Classes section__
 The websites class section will give a scheduled weekly activity list for day and night classes this gives the client a way to easily decide what they would be able to fit into their own schedule for the week and register for classes.
+
+- __meet the team section__
+
+![image](https://user-images.githubusercontent.com/100613509/166063485-3fc45ac0-62cf-4a52-8ea8-c7488cf4d0f1.png)
 
 
 - __Footer section__
 The websites footer section will provide the user with links to all social media accounts including a link to discord that will give the user a sense of community and be able to communicate with newly made friends from classes or coaches sessions all in one place.
 
+![image](https://user-images.githubusercontent.com/100613509/166063527-17f4f736-a301-4c17-ab25-b6c99019dbfa.png)
+
+
 - __Membership page__
 Membership section provides a detailed sign up so that coaches will be able to tailor the workouts to the individuals objectives 
+
+![image](https://user-images.githubusercontent.com/100613509/166063561-c0881bab-dbf4-4eeb-956d-a393a9164c31.png)
+
 
 - __contact section__
 the websites contact us and further information section has
 
 opening times box
 
+![image](https://user-images.githubusercontent.com/100613509/166063612-45f22472-7a71-408b-9b78-88ba9ca1d23c.png)
+
+
 google map for location or directions if needed
 
-
-
-### Logo and Navigation Bar
-- Featured on all five pages
-- The navbar is fully responsive and is downsized on smaller screens
-- It allows users to easily navigate the page
-
-![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
+![image](https://user-images.githubusercontent.com/100613509/166063644-352d1943-827c-4d94-b6d2-b4b4530e7da2.png)
 
 
 ## Validation
