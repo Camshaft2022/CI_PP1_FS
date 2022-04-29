@@ -431,9 +431,13 @@ ul,ol {
     position: relative;
     width: 30%;
     background-color: #13678A;
+    font-size: 20px;
+    font-weight: 400;
     border: solid 1px black;
     margin-top: 2%;
     margin-left: 33%;
+    margin-bottom: 10px;
+    padding:4px;
     
 }
 @media only screen and (max-width: 600px) {
@@ -442,9 +446,13 @@ ul,ol {
     position: relative;
     width: 102%;
     background-color: #13678A;
+    font-size: 20px;
+    font-weight: 400;
     border: solid 1px black;
     margin-top: 2%;
     margin-left: 0%;
+    margin-bottom: 10px;
+    padding:4px;
 }
 input[type=text], input[type=password],input[type=email],input[type=date] {
     width: 80%;
@@ -465,6 +473,11 @@ input[type=text], input[type=password],input[type=email],input[type=date] {
     border: black 2px solid;
     background: #f1f1f1;
 
+}
+input[type=submit] {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
 }
 
 .opening-times {
