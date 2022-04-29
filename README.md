@@ -191,10 +191,10 @@ google map for location or directions if needed
 ## Validation
 
 ### HTML Validation
-The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
-<details><summary>Home</summary>
-<img src="docs/validation/validation-html-index.jpg">
-</details>
+The W3C Markup Validation Service was used to validate the HTML of the website.
+
+![image](https://user-images.githubusercontent.com/100613509/166063886-66b809eb-8c0f-43d3-b1bc-c43e734c7252.png)
+
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
