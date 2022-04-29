@@ -627,6 +627,7 @@ ul,ol {
     transition: color 0.3s ease-in;
   }
   /*membership form */
+  
 
   .membership-signup {
     position: relative;
@@ -645,7 +646,7 @@ ul,ol {
     background-color: #13678A;
     border: solid 1px black;
     margin-top: 2%;
-    margin-left: 33%;
+    margin-left: 28%;
 }
 input[type=text], input[type=password],input[type=email],input[type=date] {
     width: 80%;
