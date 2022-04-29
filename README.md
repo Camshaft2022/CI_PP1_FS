@@ -63,7 +63,9 @@ The webpage was designed with a less is more approach so that there not bombarde
 
 ### Colour
 For the colour scheme i have choosen a dark teal blue as its a bold color but has a softness thats appealling to a any a customers eye and i have choosen to use both white and black as contrasting colors so that it matchs the color through-out the gyms enviroment and is also easily visible to all
-<br>
+
+![image](https://user-images.githubusercontent.com/100613509/165910494-c0b54e58-19f7-4e24-a974-4dbb69e539d3.png)
+
 
 ### Fonts
 Bebas Neue 
@@ -76,15 +78,15 @@ the page is a well organised, clean looking and user friendly single scroll page
 the page consists of 5 seperate sections
 - a landing page
 - a facilites page that is shown on seperated cards
+- a meet the team section that is shown in boxes
 - a classes page which is a timeline based structure
-- a timetable page which shows the weeks classes
 - a contact page with a need to know information such as contact number as well as opening hours and a usable map 
 
 
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/wireframes-homepage.png">
+
 </details>
 
 
@@ -126,7 +128,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
 <details><summary>whole page</summary>
-<img src="docs/validation/validation-css-whole-page.jpg">
+![image](https://user-images.githubusercontent.com/100613509/165910906-f05e69dd-1e28-468e-b699-a193e59d6d3d.png)
 </details>
 
 
