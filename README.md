@@ -1,4 +1,6 @@
-https://camshaft2022.github.io/CI_PP1_FS/
+![image](https://user-images.githubusercontent.com/100613509/165908486-6aea07b6-07bf-4173-90ec-c1d3505bc589.png)
+
+[Live webpage]https://camshaft2022.github.io/CI_PP1_FS/
 
 ##Project Goals 
 
