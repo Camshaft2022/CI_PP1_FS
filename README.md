@@ -97,12 +97,13 @@ For the colour scheme i have choosen a dark teal blue as its a bold color but ha
 
 
 ### Fonts
-Bebas Neue 
 
-sans-serif arial
+I have choosen Bebas Neue as the main font as when looking for the ideal font to use it court my eye and it had kept catching my eye when the font weight was changed so Bebas Neue was choosen as its easily read and but still has a style to it
 
 ### Structure
-the page is a well organised, clean looking and user friendly single scroll page designed to be less is more so that the customer wont be reading massive groups of text but more visual appealling design that can be navigated by the links on the mavigation bar or though a single scroll
+
+the page is a well organised, clean looking and user friendly single scroll page with a seperated contact us page for a different dimension the page was designed to be less is more so that the customer wont be reading massive groups of text but more visual appealling design that can be navigated by the links on the mavigation bar or though a single scroll
+
 <br>
 the page consists of 5 seperate sections
 - a landing page
@@ -134,13 +135,31 @@ the page consists of 5 seperate sections
 - Font Awsome
 
 ## Features
-The page consists of five sections and fourteen features
+
+- __Navigation__
+The websites navigation bar is identical across all 2 pages and has easy to see and use buttons
+
+- __Landing page__ 
+The website’s landing page is a brief description of the gym and includes the membership prices
+
+- __Facilities section__
+The websites facilities section is a detailed overview of all the access the user could get from a membership at the gym there’s also relevant imagery to break up large text 
+On the facilities section there’s a meet the team section that gives the user a detailed look at coaches that will be available to the clients when they subscribe to a membership.
+
+- __Classes section__
+The websites class section will give a scheduled weekly activity list for day and night classes this gives the client a way to easily decide what they would be able to fit into their own schedule for the week and register for classes.
+
+
+- __Footer section__
+The websites footer section will provide the user with links to all social media accounts including a link to discord that will give the user a sense of community and be able to communicate with newly made friends from classes or coaches sessions all in one place.
+
+- __Membership page__
+Membership section provides a detailed sign up so that coaches will be able to tailor the workouts to the individuals objectives 
 
 ### Logo and Navigation Bar
 - Featured on all five pages
 - The navbar is fully responsive and is downsized on smaller screens
 - It allows users to easily navigate the page
-- The link for the page the user is currently on is highlighted
 
 ![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
 
@@ -167,16 +186,12 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
 
-<details><summary>Home</summary>
-<img src="docs/validation/lighthouse-performance-index.jpg">
-</details>
-
 
 ### Performing tests on various devices 
 The website was tested on the following devices:
-- Lenovo Yoga 2 Pro (both in pc and tablet mode)
-- Honor 20 pro
-- Xiaomi Redmi Note 7
+- macbook
+- desktop pc
+- samsung 9+
 
 In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
 
@@ -191,40 +206,29 @@ The website was tested on the following browsers:
 1. As a first time user, I want to know where the gym is located
 
 2. As a first time user, I want to know the price range of memberships
-3. 
-4. As a first time user, I want to know more about the gym
-5. 
-6. As a first time user, I want to get a feel of what to expect at the gym
+ 
+3. As a first time user, I want to know more about the gym
+ 
+4. As a first time user, I want to get a feel of what to expect at the gym
 
-5. As a returning user, I want to see offers on memberships
 
-6. As a returnign user, I want to know the opening times
-7. 
-8. As a returning user, I want to find a phone number to call for questions or to sign up
+5. As a returnign user, I want to know the opening times
+ 
+6. As a returning user, I want to find a phone number to call for questions or to sign up
 
-8. As a returning user, I want to see the facilites
+7. As a returning user, I want to see the facilites
 
-9. As a returning user, I want to leave some comment, suggestion or message to the staff
+8. As a returning user, I want to find the gym on social media
 
-10. As a returning user, I want to find the gym on social media
+9. As a returning user, I want to know more about the coaches and staff members
 
-11. As a returning user, I want to know more about the coaches and staff members
+10. As a returning user, I want to get directions to the gym
 
-12. As a returning user, I want to get directions to the gym
+11. As the site owner, I want users to find news about upcoming events or changes in opening times
 
-13. As the site owner, I want users to find news about upcoming events or changes in opening times
-
-15. As the site owner, I want the users to be able to contact us or find us on social media
+12. As the site owner, I want the users to be able to contact us or find us on social media
 
 ## Bugs
-
-| **Bug** | **Fix** |
-| ----------- | ----------- |
-| Home page link stays highlighted when visiting another page | Change active atribute to the correct page |
-| The user can submit a contact form input without a message | Add required attribute to message input field |
-| Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
-| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
-| When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
@@ -251,6 +255,20 @@ Images not referenced below are owned by the developer.
 
 ### Media
 In order of apearance:
+all photos came from https://www.pexels.com/
+
+https://www.pexels.com/photo/fighters-sparring-in-the-gym-6295762/
+https://www.pexels.com/photo/man-in-blue-shorts-carrying-brown-exercise-equipments-116079/
+https://www.pexels.com/photo/man-and-woman-holding-battle-ropes-1552242/
+https://www.pexels.com/photo/action-exercise-fun-goggles-260598/
+https://www.pexels.com/photo/inside-a-store-2199190/
+https://www.pexels.com/photo/man-in-white-crew-neck-t-shirt-performing-massage-therapy-on-man-5888132/
+https://www.pexels.com/photo/sport-ground-with-fence-in-street-5780600/
+https://www.pexels.com/photo/women-having-exercise-using-dumbbells-903171/
+https://www.pexels.com/photo/man-kicking-heavy-bag-260447/
+https://www.pexels.com/photo/asian-trainer-clapping-hands-while-giving-support-6551144/
+https://www.pexels.com/photo/crop-anonymous-boxer-punching-face-of-calm-ethnic-couch-6456269/
+https://www.pexels.com/photo/woman-sitting-on-a-mat-with-a-ball-6740050/
 
 ### Code
 In order of apearance:
@@ -259,3 +277,5 @@ In order of apearance:
 ## Acknowledgements
 I would like to take the opportunity to thank:
 - My mentor Mo Shami for his feedback, advice, guidance and support.
+- tutor support for being on demand for my question at all hours
+- my friends for motivating me when im stuck on a section
