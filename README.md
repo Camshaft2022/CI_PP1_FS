@@ -199,16 +199,12 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
-<details><summary>whole page</summary>
-![image](https://user-images.githubusercontent.com/100613509/165910906-f05e69dd-1e28-468e-b699-a193e59d6d3d.png)
-</details>
-
-
-### Accessibility
-
+![image](https://user-images.githubusercontent.com/100613509/166064923-8f198002-a8d6-446f-9026-b7f1b046e2f5.png)
 
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+
+![image](https://user-images.githubusercontent.com/100613509/166065386-c83562b4-5637-4a87-871c-c7b8cabecb04.png)
 
 
 ### Performing tests on various devices 
@@ -254,6 +250,8 @@ The website was tested on the following browsers:
 
 ## Bugs
 
+unable to fix bugs as ran out of time
+
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
@@ -296,6 +294,9 @@ https://www.pexels.com/photo/woman-sitting-on-a-mat-with-a-ball-6740050/
 
 ### Code
 In order of apearance:
+https://www.w3schools.com/css/css_navbar_horizontal.asp
+
+
 
 
 ## Acknowledgements
