@@ -48,7 +48,7 @@ li a:hover {
 }
 /*introduction page */
 .intro {
-    margin: 10;
+    margin: 10px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -150,7 +150,7 @@ video {
 
 .card-image {
     width:100%;
-    display: flexbox;
+    display: flex;
 }
 
 .card-content {
@@ -202,7 +202,6 @@ video {
     width: 28%;
     float: left;
     margin: 15px;
-    box-shadow: 0 2px 20px rgba(0,0,0,0,8);
     padding:15px;
     color:black;
     background-color: darkgray;
@@ -215,7 +214,6 @@ video {
     float: left;
     margin: 40px 20px 30px 0;
     border: 5px solid #fff;
-    shape-outside: circle();
 }
 
 img {
@@ -387,6 +385,15 @@ ul,ol {
     font-size: 25px;
 }
 
+/*contact info code */
+
+.container {
+    font-family: 'Bebas Neue','Arial' , 'sans-serif';
+    font-size: 15px;
+    color: #b9b9b9;
+    background-color:#13678A;
+    padding: 10px;
+  }
 
 
 /*footer design */
@@ -460,19 +467,7 @@ input[type=text], input[type=password],input[type=email],input[type=date] {
 
 }
 
-/*contact info code */
-
-.container {
-    font-family: 'Bebas Neue','Arial' , 'sans-serif';
-    font-size: 15px;
-    color: #b9b9b9;
-    background-color:#13678A;
-    padding: 10px;
-  }
-
-
 .opening-times {
-    display: flex;
     flex-direction:row;
     flex-wrap:nowrap;
     float: left;
@@ -480,15 +475,18 @@ input[type=text], input[type=password],input[type=email],input[type=date] {
     line-height: 15px;
     width: 50%;
     height: 40vh;
+
+}
+.opening-times h3 p {
+    font-size:40px ;
+    margin: 10px;
+    font-family:'Bebas Neue','Arial' , 'sans-serif';
+    letter-spacing: 2px;
+    line-height: 5px
+    
 }
 .input-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap:nowrap;
-    float: right;
-    border: black 1px solid;
-    line-height: 15px;
-    width: 50%;
-    height: 40vh;
+        font-size: 70px;
 }
+
   
