@@ -484,12 +484,15 @@ input[type=submit] {
 
 .contact-container{
         display: flex;
-        border:#13678A solid 5px;
-        margin: 15px;
+        margin: 3px;
         padding: 10px;
-        
     }
-    .contact-map {
+.contact-container p h2  {
+    line-height: 1.5px;
+    font-size: 40px;
+}
+    
+.contact-map {
         display: flex;
         flex-direction: row;
         margin: 15px;
