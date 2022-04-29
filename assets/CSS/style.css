@@ -75,6 +75,10 @@ div h1 {
     justify-content: center;
     text-align: center;
 }
+video {
+    align-content: center;
+    justify-content: center;
+}
 /*facilites grid */
 .split-section {
     display: flex;
@@ -130,7 +134,7 @@ div h1 {
 @media only screen and (min-width: 601px) {
    
     .cards {
-        margin-left: 19.5%;
+        margin-left: 13%;
         max-width: 1000px;
         display: grid;
         grid-template-columns: repeat(5, minmax(246px, 1fr));
