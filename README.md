@@ -156,6 +156,15 @@ The websites footer section will provide the user with links to all social media
 - __Membership page__
 Membership section provides a detailed sign up so that coaches will be able to tailor the workouts to the individuals objectives 
 
+- __contact section__
+the websites contact us and further information section has
+
+opening times box
+
+google map for location or directions if needed
+
+
+
 ### Logo and Navigation Bar
 - Featured on all five pages
 - The navbar is fully responsive and is downsized on smaller screens
