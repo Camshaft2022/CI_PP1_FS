@@ -480,26 +480,12 @@ input[type=submit] {
     font-size: 20px;
 }
 
-.opening-times {
-    flex-direction:row;
-    flex-wrap:nowrap;
-    float: left;
-    border: black 1px solid;
-    line-height: 15px;
-    width: 50%;
-    height: 40vh;
+  /*contact page */
 
-}
-.opening-times h3 p {
-    font-size:40px ;
-    margin: 10px;
-    font-family:'Bebas Neue','Arial' , 'sans-serif';
-    letter-spacing: 2px;
-    line-height: 5px
-    
-}
-.input-container {
-        font-size: 70px;
-}
+    .contact-container {
+        display: flex;
+        flex-direction: row;
+        border:#13678A solid 5px;
+    }
 
   
