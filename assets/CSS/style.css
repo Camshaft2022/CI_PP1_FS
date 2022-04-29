@@ -482,10 +482,16 @@ input[type=submit] {
 
   /*contact page */
 
-    .contact-container {
+.contact-container{
+        display: flex;
+        border:#13678A solid 5px;
+        margin: 15px;
+        padding: 10px;
+        
+    }
+    .contact-map {
         display: flex;
         flex-direction: row;
-        border:#13678A solid 5px;
+        margin: 15px;
     }
-
   
