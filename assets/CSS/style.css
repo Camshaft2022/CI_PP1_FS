@@ -191,7 +191,7 @@ div h1 {
     .team-cards {
         display: flex;
         flex-direction: column;
-
+    }
 }
 
 .coaches {
@@ -212,10 +212,14 @@ div h1 {
     margin: 40px 20px 30px 0;
     border: 5px solid #fff;
     shape-outside: circle();
+}
+
+img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 h3 {
     font-family: 'Bebas Neue','Arial' , 'sans-serif';
 }
@@ -417,4 +421,3 @@ ul,ol {
     color:#fefefe;
     transition: color 0.3s ease-in;
   }
-  
